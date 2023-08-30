@@ -15,16 +15,17 @@ public class Ifsample {
        int money = 300;
        if ( money >= 200) {
     	   System.out.println("춥파추스 냠냠");
-    	  
+       }  
       int age = 18;
       if (age >= 18) {
     	  System.out.println("성인입니다.");
       }
       int temp = 25;
       if (temp > 24) {
-    	  System.out.println("날씨가 춥지 않고 놀러가기 좋습니다.");
-      }
-       }
+    	  System.out.println("날씨가 춥지 않고 놀러가기 좋습니다.");}
+     
+      
+      
+      
 	}
-
 }
