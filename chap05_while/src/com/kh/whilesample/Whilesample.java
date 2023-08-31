@@ -6,7 +6,7 @@ public class Whilesample {
 		// While문
 		/*
 		 특정 조건이 참인 동안에 반복적으로 코드 불록을 실행하는 제어 구조
-		 조건이 참인지 거짓인지 검사한후 조건이 참인동안 코드블록을 실행한다.
+		 조건이 참인지 거짓인지 검사한후 조건이 참인동안 코드블록이 반복적으로 실행
 		 조건이 거짓이면, 반복이 중지
 		 
 		 while문의 특징:
@@ -18,6 +18,7 @@ public class Whilesample {
 		 	//조건이 참인 동안 실행될 코드
 		 	 }
 		  */
+		
 		int count = 1;
 		while (count <=5) {
 			System.out.println("반복: " + count);
