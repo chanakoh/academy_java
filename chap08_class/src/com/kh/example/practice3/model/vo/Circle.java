@@ -2,12 +2,11 @@ package com.kh.example.practice3.model.vo;
 
 public class Circle {
 	
-	double PI;
-	int radius;
+	double PI=3.14; //원주율 
+	int radius=1; //반지름
 	
-	public Circle(double PI, int radius) {
-		this.PI = PI;
-		this.radius = radius;
+	public Circle() {
+		//기본 생성자, 아무런 초기화를 진행하지 않는다.
 		}
 	
 		public void incrementRadius() {
