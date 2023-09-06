@@ -7,8 +7,8 @@ public class GameRun {
 		PlayerCharacter player1 = new PlayerCharacter();
 		
 		player1.setName("kh");
-		player1.setHealth(10);
-		player1.setAttackPower(20);
+		player1.setHealth(-10);
+		player1.setAttackPower(-20);
 		
 		player1.displayInfo();
 		
