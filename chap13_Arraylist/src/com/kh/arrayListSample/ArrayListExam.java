@@ -35,6 +35,8 @@ public class ArrayListExam {
 		//요소 제거
 		fruits.remove(1);
 		System.out.println("바나나 제거 확인 :"+fruits);
+		//중복된 항목 제거
+		
 		
 		//ArrayList순회해서 요소 출력
 		System.out.println("모든 과일 목록");
