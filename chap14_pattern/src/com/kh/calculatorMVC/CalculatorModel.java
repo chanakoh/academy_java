@@ -7,5 +7,7 @@ public class CalculatorModel {
 		this.number = number;
 		
 	}
-	
+	public int calculateSquare() {
+		return number * number;
+}
 }

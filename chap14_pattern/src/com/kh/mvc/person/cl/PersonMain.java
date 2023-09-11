@@ -12,9 +12,9 @@ public class PersonMain {
 			PersonController controller = new PersonController(model,view);
 			
 			controller.displaye();
-			controller.setPersonname("±èº´Âù");
+			controller.setPersonname("");
 			controller.setPersonage(40);
 			controller.displaye();
 		}
-	
+
 }

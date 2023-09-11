@@ -28,10 +28,6 @@ public class PersonController {
 	}
 	public void displaye() {
 		view.Display(getPersonname(),getPersonage());
-	
-	
 
-
-	
 }
 }

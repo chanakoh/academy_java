@@ -16,6 +16,5 @@ public class Scannerexme {
 		 inum5 = sc.nextInt();
 		 System.out.println(inum4 - inum5);
 		 
-		
 	}
 }

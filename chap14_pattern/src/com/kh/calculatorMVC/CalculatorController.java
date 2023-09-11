@@ -12,7 +12,8 @@ public class CalculatorController {
 		public void run() {
 			int userInput = view.getUserInput();
 			model.setNumber(userInput);
-			//int result = model
+			int result = model.calculateSquare();
+			System.out.println("°è»ê"+result);
 		}
 		
 }
