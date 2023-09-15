@@ -41,8 +41,7 @@ public class PracticeMain {
 		folder.mkdir();
 		try {
 			FileWriter w = new FileWriter(folderPath+"\\java.txt");
-			w.write("·£´ý");
-			w.write((int) Math.random()*100);
+			w.write("1235");
 			w.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
