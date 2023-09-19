@@ -19,5 +19,4 @@ public class File_delete_Main {
 			System.out.println("파일을 삭제하는데 실패하셨습니다.");
 		}
 	}
-
 }
