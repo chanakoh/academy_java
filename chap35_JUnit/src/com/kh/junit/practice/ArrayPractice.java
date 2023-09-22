@@ -8,10 +8,10 @@ import org.junit.Test;
 	public class ArrayPractice {
 	private int[] arr;
 	public ArrayPractice(int size) {
-		
 		arr = new int[size];
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = i+1;
+			
 		}
 	}
 	public int[] getArray() {
